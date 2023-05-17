@@ -8,6 +8,8 @@ import { BannerComponent } from './components/banner/banner.component';
 import { InformationComponent } from './components/information/information.component';
 import { ProfSkillsComponent } from './components/prof-skills/prof-skills.component';
 import { SocialmediaComponent } from './components/socialmedia/socialmedia.component';
+import { CardComponent } from './components/card/card.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { SocialmediaComponent } from './components/socialmedia/socialmedia.compo
     BannerComponent,
     InformationComponent,
     ProfSkillsComponent,
-    SocialmediaComponent
+    SocialmediaComponent,
+    CardComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
