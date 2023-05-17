@@ -5,13 +5,20 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './Shared/navbar/navbar.component';
 import { FooterComponent } from './Shared/footer/footer.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { InformationComponent } from './components/information/information.component';
+import { ProfSkillsComponent } from './components/prof-skills/prof-skills.component';
+import { SocialmediaComponent } from './components/socialmedia/socialmedia.component';
+
 
 @NgModule({
   declarations:[
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    InformationComponent,
+    ProfSkillsComponent,
+    SocialmediaComponent
   ],
   imports: [
     BrowserModule,
