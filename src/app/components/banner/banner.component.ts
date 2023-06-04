@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common'
 
 @Component({
   selector: 'app-banner',
@@ -7,13 +8,7 @@ import { Component } from '@angular/core';
 })
 export class BannerComponent {
 banner = {
-    heading: "Anthony Barnett",
-    subHeading: "WEB DEVELOPER,GRAPHIC DESIGNER,PHOTOGRAPHER",
-    HM: "Hire Me",
-    DCV: "Download CV",
-    url: "https://iso.500px.com/30-striking-photos-of-beautiful-bridges-around-the-world/"
-  }
-  handleClick() {
-    console.log("clicked the button")
+    heading: "Welcome to the Job Portal",
+    subHeading: "The only way to do great work is to love what you do",
   }
 }

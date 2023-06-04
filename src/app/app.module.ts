@@ -5,10 +5,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './Shared/navbar/navbar.component';
 import { FooterComponent } from './Shared/footer/footer.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { InformationComponent } from './components/information/information.component';
-import { ProfSkillsComponent } from './components/prof-skills/prof-skills.component';
-import { SocialmediaComponent } from './components/socialmedia/socialmedia.component';
-import { CardComponent } from './components/card/card.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 
@@ -18,10 +14,6 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     NavbarComponent,
     FooterComponent,
     BannerComponent,
-    InformationComponent,
-    ProfSkillsComponent,
-    SocialmediaComponent,
-    CardComponent,
     PortfolioComponent
   ],
   imports: [
