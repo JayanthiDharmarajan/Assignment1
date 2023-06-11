@@ -1,0 +1,19 @@
+<div appHover class="card">
+    <div class="card-body">
+    <h5 class="card-title"> </h5>
+    <p class="card-text card-desc-height"> <b>{{ card.position }}-{{ card.JobId }}</b> </p>
+    </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">JobId: {{ card.JobId }}</li>
+    <li class="list-group-item">Position: {{ card.position }}</li>
+    <li class="list-group-item">Company Name: {{ card.CompanyName }}</li>
+    <li class="list-group-item">Skills Required: {{ card.SkillsRequired }}</li>
+    <li class="list-group-item">Work Experience: {{ card.WorkExperience }}</li>
+    <li class="list-group-item">Salary Range: {{ card.SalaryRange }}</li>
+    <li class="list-group-item">Application Category: {{ card.category }}</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="btn btn-dark">More Info</a>
+    <button (click)="onSelect()" class="ms-3 btn btn-primary">Apply</button>
+  </div>
+</div>

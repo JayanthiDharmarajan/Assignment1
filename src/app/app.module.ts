@@ -5,7 +5,13 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './Shared/navbar/navbar.component';
 import { FooterComponent } from './Shared/footer/footer.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { CardComponent } from './components/card/card.component';
+import { AdminComponent } from './components/pages/admin/admin.component';
+import { JobsComponent } from './components/pages/jobs/jobs.component';
+import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './components/pages/home/home.component';
+import { LogoutComponent } from './components/pages/logout/logout.component';
+import { HoverDirective } from './directive/hover.directive';
 
 
 @NgModule({
@@ -14,11 +20,17 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     NavbarComponent,
     FooterComponent,
     BannerComponent,
-    PortfolioComponent
+    CardComponent,
+    AdminComponent,
+    JobsComponent,
+    HomeComponent,
+    LogoutComponent,
+    HoverDirective,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
